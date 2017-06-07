@@ -131,7 +131,7 @@ return(c(sum(weights*theta_vec),sum(weights^2*(se_vec^2+sigmab2))))
 
 
 ##  est_fixedeffect
-Fixed-bias meta analysis (from 3.1).  The estimate for the randomized trials is calculated using a fixed effects meta analysis.  
+Fixed-bias meta analysis (from Section 3.1 of manuscript).  
 
 Parameters:
 * est\_rt: treatment effect vector from collection of randomized trials 
